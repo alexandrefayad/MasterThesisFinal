@@ -44,6 +44,7 @@ parser.add_argument('--L', default=False, action='store_true', help='use limit v
 parser.add_argument('--SetSeed', type=int, default=909, help='random seed')
 parser.add_argument('--ModelSeed', type=int, default=909, help='random seed')
 parser.add_argument('--version', type=int, default=2, help='model version')
+#FOR VERSIONS 0,1,2 CORRESPOND TO V_0 V_1 V_2, 3 CORRESPONDS TO LEM, 4 TO V_3 AND 5 TO LSTM
 
 args = parser.parse_args()
 

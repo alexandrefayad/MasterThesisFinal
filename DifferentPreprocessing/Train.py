@@ -46,6 +46,7 @@ parser.add_argument('--L', default=False, action='store_true', help='use limit v
 #seed changes the results quite a lot
 parser.add_argument('--seed', type=int, default=909, help='random seed')
 parser.add_argument('--version', type=int, default=2, help='model version')
+#FOR VERSIONS 0,1,2 CORRESPOND TO V_0 V_1 V_2, 3 CORRESPONDS TO LEM, 4 TO V_3 AND 5 TO LSTM
 
 parser.add_argument('--stand',default = False ,action = 'store_true',help = 'standarize data')
 parser.add_argument('--norm2',default = False ,action = 'store_true',help = 'normalize 2')
